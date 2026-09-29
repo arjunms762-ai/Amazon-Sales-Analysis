@@ -17,53 +17,34 @@ Analyze Amazon sales data to identify sales trends, product and category perform
 
 ### Tools Used
 
-- **Kali Linux** for penetration testing and security auditing.
-- **Burp Suite** for web vulnerability scanning and exploitation.
-- **Metasploit Framework** for exploitation and post-exploitation.
-- **Nmap** for network discovery and vulnerability scanning.
-- **OWASP ZAP** for automated security testing of web applications.
-- **Wireshark** for network traffic analysis.
+- **SQL** for querying, filtering, aggregating, and analyzing sales data.
+- **Python** for data cleaning, exploratory data analysis, and identifying trends.
+- **Advanced Excel** for data preparation, calculations, analysis, and reporting.
+- **Power BI** for creating interactive dashboards, KPI visualizations, and business reports.
 
 ## Steps
 
 Below are the key steps taken in the VAPT process:
 
-### 1. Reconnaissance and Information Gathering
-In the reconnaissance phase, initial information about the target system was gathered through open-source intelligence (OSINT), social engineering, and network scanning techniques.
+### 1. **Data Collection & Understanding**
+The Amazon sales dataset was collected and reviewed to understand the available fields, including product details, sales, quantity, customer information, payment methods, and order status
 
-*Ref 1: Nmap Scan Results*  
-This screenshot shows the results of a network scan using Nmap, identifying open ports and services on the target machine.
 
-![Nmap Scan](link-to-image)
+### 2. **Data Cleaning & Preparation**
+The dataset was cleaned and prepared by checking data quality, handling inconsistencies, organizing columns, and preparing the data for analysis.
 
-### 2. Vulnerability Scanning
-During this phase, tools like Nessus and OpenVAS were used to identify vulnerabilities in the system and applications, categorizing them based on severity.
 
-*Ref 2: Nessus Scan Report*  
-Here, Nessus scan results display a list of detected vulnerabilities, ranked by their criticality.
+### 3. **Exploratory Data Analysis**
 
-![Nessus Scan](link-to-image)
+Python and Advanced Excel were used to explore the dataset, identify patterns, analyze sales performance, and understand product and category trends.
 
-### 3. Exploitation
-Once vulnerabilities were identified, exploitation techniques were employed to verify their existence and assess their impact.
+### 4. **SQL Analysis**
+SQL queries were used to filter, aggregate, and analyze the sales data to extract meaningful information such as sales performance, order trends, and product-level insights.
 
-*Ref 3: Metasploit Exploit*  
-This screenshot shows a successful exploit using Metasploit, gaining unauthorized access to the target system.
+### 5. **Power BI Dashboard Development**
+SQL queries were used to filter, aggregate, and analyze the sales data to extract meaningful information such as sales performance, order trends, and product-level insights.
 
-![Metasploit Exploit](link-to-image)
+### 6. **Business Insights**
+The final results were analyzed to identify important sales trends, product performance, and other insights that can support data-driven business decisions.
 
-### 4. Post-Exploitation
-Post-exploitation focused on maintaining access and escalating privileges to gather sensitive information or pivot to other systems within the network.
-
-*Ref 4: Post-Exploitation Shell*  
-This image captures the post-exploitation shell session, where elevated privileges were used to extract sensitive data.
-
-![Post-Exploitation Shell](link-to-image)
-
-### 5. Reporting
-Finally, all findings were documented, including detailed descriptions of vulnerabilities, exploits, and remediation recommendations.
-
-*Ref 5: Vulnerability Report*  
-This screenshot shows a portion of the penetration testing report, highlighting critical vulnerabilities and suggested fixes.
-
-![Vulnerability Report](link-to-image)
+<img src="YOUR_IMAGE_URL" alt="Amazon Sales Dashboard" width="800"/>
